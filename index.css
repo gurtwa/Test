@@ -1,0 +1,59 @@
+body{
+    background-image: url(1.jpg);
+}
+table {
+background-color: rgb(81, 87, 87);
+box-shadow: 0 5px 0 0 rgb(54, 54, 54);
+color: aliceblue;
+align-content: center;
+width:90px;
+border-radius: 10px 10px 10px 10px;
+}
+button{
+    text-align: center;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(67, 71, 71);
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.5s; /* Анимация перехода */
+}
+button:active {
+  background-color: #313131; /* Цвет кнопки при нажатии */
+}
+td{
+width: 100px;
+}
+
+.input2{
+
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    text-align: right;
+    background-color: rgb(81, 87, 87);
+    color: white;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    -webkit-transition: 0s;
+    transition: 0s;
+    outline: none;
+
+}
+.input1{
+
+  width: 250px;
+    height: 50px;
+    font-size: 30px;
+    text-align: right;
+    background-color: rgb(81, 87, 87);
+    color: white;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    -webkit-transition: 0s;
+    transition: 0s;
+    outline: none;
+}
